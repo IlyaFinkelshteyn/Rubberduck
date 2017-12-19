@@ -34,8 +34,8 @@ cache:
   - packages/ -> **/packages.config
 
 
-install:
-  set PATH=C:\Program Files (x86)\MSBuild\15.0\Bin;%PATH%
+#install:
+#  set PATH=C:\Program Files (x86)\MSBuild\15.0\Bin;%PATH%
 assembly_info:
   patch: true
   file: RetailCoder.VBE\Properties\AssemblyInfo.cs
